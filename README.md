@@ -26,12 +26,18 @@ This is a simple React-based Token Generator application that takes user input a
 
 2. Navigate to the project directory:
 
+   ```bash
    cd Token-Generator
+   ```
 
 3. Install the dependencies:
 
+   ```bash
    npm install
+   ```
 
 4. Start the development server:
 
+   ```bash
    npm run dev
+   ```
