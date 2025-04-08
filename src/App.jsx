@@ -3,6 +3,7 @@ import { Box, Typography, Stack } from "@mui/material";
 import ChatInputBox from "../src/components/ChatInputBox";
 import OutputBox from "../src/components/OutputBox";
 import GitHubIcon from "@mui/icons-material/GitHub";
+
 import TokenIcon from "@mui/icons-material/Token";
 import generateToken from "../src/utils/tokenGenerator";
 const App = () => {
@@ -25,15 +26,19 @@ const App = () => {
       >
         <Stack direction="row">
           <TokenIcon sx={{ fontSize: 32 }} />
-          <Typography variant="h5">Tokens with Chai</Typography>
+          <Typography variant="h5">Token View</Typography>
         </Stack>
-        <GitHubIcon
-          sx={{ fontSize: 32 }}
-          component="a"
-          href="https://github.com/yourusername/yourproject"
+        <a
+          href="https://github.com/SurajPatel04/Token-Generator"
           target="_blank"
-          rel="noopener noreferrer"
-        />
+          style={{ color: "inherit", textDecoration: "none" }}
+        >
+          <GitHubIcon
+            sx={{
+              fontSize: 32,
+            }}
+          />
+        </a>
       </Box>
 
       <Box
