@@ -6,7 +6,6 @@ This is a simple React-based Token Generator application that takes user input a
 
 - **Chat Input Box:** Allows users to input text.
 - **Output Box:** Displays the tokenized output of the input text, along with a token count.
-- **GitHub Integration:** Provides a link to the GitHub repository for the project.
 - **Token Generation:** The text is tokenized based on alphanumeric characters and special characters.
 
 ## Tech Stack
